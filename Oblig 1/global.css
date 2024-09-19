@@ -1,0 +1,51 @@
+:root{
+    --color1: #1F2936;
+    --blue: #3782F5;
+    --gray: #E4E5EB;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
+}
+
+nav{
+    background-color: var(--color1);
+    overflow: auto;
+    color: white;
+}
+
+nav > h1{
+    text-align: center;
+}
+
+nav > div{
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    background-color: var(--color1);
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
