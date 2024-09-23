@@ -21,7 +21,7 @@ body{
 
 a{
     color: white;
-    margin: 1em;
+    margin: 1rem;
     text-decoration: none;
 }
 a:visited{
@@ -47,5 +47,5 @@ footer{
     background-color: var(--color1);
     color: white;
     text-align: center;
-    padding: 2em;
+    padding: 2rem;
 }

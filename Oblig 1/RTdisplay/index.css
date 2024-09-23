@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#weather{
+    background-color: var(--gray);
+    border-radius: 2em;
+    margin: 15rem auto 15rem auto;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+#weather > div{
+    align-items: center;
+    padding: 1rem;
+}
+
+#weather > div > div{
+    display: flex;
+    align-items: center;
+    
+}
+
+#content > h2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0;
+}
