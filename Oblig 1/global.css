@@ -32,10 +32,13 @@ nav{
     background-color: var(--color1);
     overflow: auto;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 nav > h1{
     text-align: center;
+    margin-bottom: 0.5em;
 }
 
 nav > div{
@@ -48,4 +51,8 @@ footer{
     color: white;
     text-align: center;
     padding: 2rem;
+}
+
+p{
+    text-align: justify;
 }
