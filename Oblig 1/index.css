@@ -2,9 +2,9 @@
     background-color: var(--color1);
     overflow: auto;
     color: white;
-    padding: 10em;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding: 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     display: flex;
 }
 
@@ -17,18 +17,25 @@
 }
 
 #intro > div > input{
-    border-radius: 0.8em;
+    border-radius: 0.8rem;
     border-width: 0;
     background-color: var(--blue);
     color: white;
     font-weight: bold;
-    padding: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-#intro > img{
-    width: 100%;
+#imgPlaceholder{
+    margin-left: 10rem;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+
+#imgPlaceholder > p{
+    align-self: center;
 }
 
 /* Main content part */
@@ -46,21 +53,38 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    margin: 5rem 0 5rem 0;
 }
 
 #mainContent > div > div{
-    background-color: var(--blue);
-    overflow: visible;
-    flex-grow: 2;
-    border-radius: 2em;
+    border-color: var(--blue);
+    border-radius: 1rem;
+    border-width: 0.5rem;
+    /* flex-grow: 1; */
+    border-style: solid;
+    width: 40%;
 }
 
 #mainContent > div > div > img{
     border-style: solid;
     border-width: 0;
-    border-radius: 1em;
-    width: 96%;
-    padding: 1em;
+    border-radius: 2rem;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#mainContent > div > div > img::before{
+    position: absolute;
+    display: block;
+    width: 110%;
+    border-style: solid;
+    border-width: 2rem;
+    border-color: var(--blue);
+    background-color: red;
+    padding: 1rem;
+    left: 0px;
+    top: 0px;
 }
 
 #mainContent > div > p{
@@ -69,7 +93,7 @@
 
 /* Quote part */
 figure{
-    padding: 10em;
+    padding: 10rem;
     background-color: var(--gray);
     margin: 0;
     display: flex;
@@ -91,23 +115,24 @@ figure > div > q{
 figure > div > figcaption{
     text-align: right;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 /* Call to action part */
 #action{
     background-color: var(--blue);
-    margin: 10em;
-    padding: 2em;
-    padding-left: 5em;
-    padding-right: 5em;
-    border-radius: 2em;
+    margin: 10rem;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 2rem;
     display: flex;
     justify-content: space-between;
     color: white;
 }
 
 #action > div:last-child{
-    margin: 1em;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,14 +140,14 @@ figure > div > figcaption{
 
 #action > div > input{
     background-color: var(--blue);
-    border-width: 0.2em;
+    border-width: 0.2rem;
     border-color: white;
     color: white;
     font-weight: bold;
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
     border-style: solid;
     text-align: center;
-    padding: 0.2em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
