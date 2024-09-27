@@ -14,6 +14,8 @@
 
 #intro > div > h1{
     font-family: 'Roboto-Bold', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0;
 }
 
 #intro > div > input{
@@ -28,7 +30,7 @@
 }
 
 #imgPlaceholder{
-    margin-left: 10rem;
+    margin-left: 4rem;
     background-color: darkgray;
     display: flex;
     justify-content: center;
