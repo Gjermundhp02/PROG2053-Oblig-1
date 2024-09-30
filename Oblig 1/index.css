@@ -110,6 +110,7 @@ figure > div > q{
     font-style: italic;
     font-size: larger;
     display: inline;
+    text-shadow: 1px 1px 20px;
 }
 
 figure > div > figcaption{
