@@ -7,7 +7,7 @@ body{
 #weather{
     background-color: var(--gray);
     border-radius: 2em;
-    margin: 15rem auto 15rem auto;
+    margin: 15rem auto;
     display: flex;
     align-items: center;
     padding: 2rem;
