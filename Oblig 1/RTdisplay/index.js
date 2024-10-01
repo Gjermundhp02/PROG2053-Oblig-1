@@ -14,4 +14,4 @@ async function update(){
 
 setInterval(update, 10000);
 
-setTimeout(update, 0);
+update();

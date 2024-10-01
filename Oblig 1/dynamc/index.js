@@ -35,9 +35,9 @@ document.addEventListener('scroll', async () => {
     }
 })
 
-setTimeout(async () => {
+(async () => {
     const el = document.getElementById('posts');
     for (let i = 0; i < 12; i++) {
         el.append((await asyncGen.next()).value);
     }
-}, 0);
+})()
