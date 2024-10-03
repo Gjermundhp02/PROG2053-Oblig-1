@@ -26,8 +26,13 @@ const asyncGen = postElement();
 
 document.addEventListener('scroll', async () => {
     if((window.scrollY + window.innerHeight+400) >= document.body.scrollHeight) {
-        for(let i = 0; i < 4; i++) {
-            const el = (await asyncGen.next()).value;
+        let posts = []
+        for(let i = 0; i < 3; i++) {
+            posts.push(asyncGen.next());
+        }
+        posts = await Promise.all(posts);
+        for(const post of posts) {
+            const el = post.value;
             if(el) {
                 document.getElementById('posts').append(el);
             }

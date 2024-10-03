@@ -2,13 +2,13 @@
     background-color: var(--gray);
     padding: 2rem;
     border-radius: 1rem;
-    width: 21rem;
+    width: 25rem;
     margin: 2rem;
 }
 
 #posts{
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 2rem;
     justify-content: center;
 }
