@@ -16,8 +16,10 @@ body{
     border-radius: 2em;
     display: flex;
     align-items: center;
+    justify-items: center;
     padding: 1.5rem 2rem;
     margin: 2rem;
+    width: 33%;
 }
 
 .card > div{
